@@ -1,0 +1,230 @@
+.hero {
+  background: url(../assets/landing-img.png);
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 54, 121, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_form_container {
+  width: 798px;
+  height: 474px;
+  display: flex;
+  background-color: #e3e3e3;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.get_started_cont {
+  background: #003679;
+  width: 298px;
+}
+
+.gs_logo {
+  width: 205px;
+  height: 48px;
+  margin: 66px 47px 93px 46px;
+}
+
+.gs_btn {
+  width: 220px;
+  height: 50px;
+  background: #ffffff;
+  border: 1.5px solid #003679;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-left: 39px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #003679;
+}
+
+.gs_btn:hover {
+  cursor: pointer;
+}
+
+.gs_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 39px;
+  margin-bottom: 31px;
+  width: 219px;
+  height: 57px;
+  color: #ffffff;
+}
+
+.form_cont {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  padding: 0 58px;
+}
+.form_text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  margin: 86px auto 45px auto;
+}
+
+.form_input {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  width: 100%;
+  height: 50px;
+  padding: 17px 30px;
+}
+
+.login_btn {
+  background: rgba(0, 54, 121, 0.75);
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 9px;
+}
+.login_btn:hover {
+  cursor: pointer;
+}
+.forgot_password {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #09922f;
+}
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  width: 20%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.right_side {
+  width: 100%;
+  background: #f5f7f7;
+  padding: 53px 29px;
+}
+
+.trans_btn {
+  background: #003679;
+  border-radius: 5px;
+  text-transform: uppercase;
+  width: 280px;
+  height: 50px;
+  border: none;
+  color: #ffffff;
+}
+.avatar_cont {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+.card {
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(186, 185, 185, 0.25);
+  border-radius: 10px;
+  width: 100%;
+}
+.left_main {
+
+width: 750px;
+display: flex;
+flex-direction: column;
+gap: 29px;
+}
+.cc_card_cont {
+    padding: 22px 37px 51px 37px;
+}
+.myacc {
+    font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #003679;
+}
+
+.ccc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 44px;
+}
+.trans {
+    
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.trans span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    
+    color: #C57E37;
+}
+.transDeets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 0;
+    height: 65px;
+    padding: 20px;
+}
+
+.transDeets > div {
+    display: flex;
+    gap: 23px;
+
+}
+
+.trans_title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+.trans_ref {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #8A8A8A;
+    
+}
+.trans_amt {
+    font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+}
