@@ -88,14 +88,29 @@ const Home = () => {
                       <p className={Styles.trans_ref}>{t.ref}</p>
                     </div>
                   </div>
-                  <p className={Styles.trans_amt} style={{color: t.amt.includes('-') ? ' #F50606' : '#09922F'}}>{t.amt}</p>
+                  <p
+                    className={Styles.trans_amt}
+                    style={{
+                      color: t.amt.includes("-") ? " #F50606" : "#09922F",
+                    }}
+                  >
+                    {t.amt}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
         </div>
         <div>
-          <div className={Styles.card}>hgfg</div>
+          <div className={`${Styles.card} ${Styles.right_side}`}>
+            <div>
+              <p className={Styles.myacc}>Previous /beneficiaries</p>
+              <hr />
+            </div>
+            <p className="beneficiiary_text">
+              Click on a beneficiary to make a quick transfer
+            </p>
+          </div>
         </div>
       </main>
     </div>
